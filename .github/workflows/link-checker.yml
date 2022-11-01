@@ -5,7 +5,7 @@ on: push
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
-    if: github.repository == 'githubtraining/exercise-publish-package'
+    if: github.repository == 'thomasrognes/exercise-publish-package'
     steps:
       - uses: actions/checkout@master
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
